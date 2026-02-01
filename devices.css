@@ -1,0 +1,100 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: antiquewhite;
+        }
+        
+        .company-heading {
+            text-align: center;
+            font-size: 2em;
+            margin-top: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        
+        .apple-product {
+            display: flex;
+            justify-content: space-evenly;
+            margin: 20px;
+        }
+        
+        #iphone {
+            background-image: url(realiphone.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 300px;
+            width: 40%;
+        }
+        
+        #macbook {
+            background-image: url(macbook.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 300px;
+            width: 40%;
+        }
+        
+        .samsung-product {
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 50px;
+        }
+        
+        #samsung-watch {
+            background-image: url("watchapple.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 300px;
+            width: 40%;
+        }
+        
+        #samsung-tv {
+            background-image: url("samsung-tv.jpg");
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 300px;
+            width: 40%;
+        }
+        
+        .op-product {
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 50px;
+        }
+        
+        #op-cases {
+            background-image: url("opcases.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 300px;
+            width: 40%;
+        }
+        
+        #op-earbuds {
+            background-image: url("opearbuds.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 300px;
+            width: 40%;
+        }
+        
+        .container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .container a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            font-size: large;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        
+        .product {
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+        }

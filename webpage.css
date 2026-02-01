@@ -1,0 +1,103 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: #EBF4F6;
+        background-image: linear-gradient(45deg, #99ebfe 0%, #09637E 100%);
+    }
+    
+    @keyframes popup {
+        0% {
+            opacity: 0;
+        }
+        50% {
+            opacity: 0.5;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    
+    #forms {
+        background-color: #EBF4F6;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 1.3rem;
+        max-width: 400px;
+        margin: 50px auto;
+        height: auto;
+        animation: popup 1s normal ease-in;
+    }
+    
+    .header {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .form-input,
+    .gender,
+    .date,
+    .buttons,
+    .customer {
+        width: 100%;
+        padding: 8px;
+        margin: 5px 0 15px 0;
+    }
+    
+    .buttons {
+        text-align: center;
+    }
+    
+    #submit-btn {
+        padding: 5px 10px;
+        margin: 0 5px;
+        border: none;
+        border-radius: 5px;
+        background-color: #09637E;
+        color: white;
+        cursor: pointer;
+        font-size: 1rem;
+    }
+    
+    #reset-btn {
+        padding: 5px 10px;
+        margin: 0 5px;
+        border: none;
+        border-radius: 5px;
+        background-color: #7b0f0f;
+        color: white;
+        cursor: pointer;
+        font-size: 1rem;
+    }
+    
+    #submit-btn:hover {
+        background-color: #074a57;
+    }
+    
+    #reset-btn:hover {
+        background-color: #5c0b0b;
+    }
+    
+    #customer-btn {
+        width: 100%;
+        padding: 8px;
+        border: none;
+        border-radius: 5px;
+        background-color: #333333;
+        color: white;
+        cursor: pointer;
+        font-size: 1rem;
+    }
+    
+    #customer-btn:hover {
+        background-color: #555555;
+    }
+    
+    .gender {
+        display: flex;
+        justify-content: space-evenly;
+    }

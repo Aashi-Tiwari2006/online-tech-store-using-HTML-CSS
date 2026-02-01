@@ -1,0 +1,118 @@
+.overlay {
+    background-image: url(covermobiles.webp);
+    height: 400px;
+    background-size: cover;
+}
+
+.mobile-offers {
+    position: relative;
+    text-align: center;
+}
+
+.mobile-offers h2 {
+    position: relative;
+    padding-top: 15px;
+    font-size: 36px;
+    z-index: 1;
+}
+
+.mobile-list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+}
+
+.mobile-image1 {
+    background-image: url(iphone.jpg);
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+    background-repeat: no-repeat;
+    margin-left: 150px;
+    margin-right: 90px;
+}
+
+.mobile-image2 {
+    background-image: url(samsungphone.webp);
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+    background-repeat: no-repeat;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.mobile-image3 {
+    background-image: url(opneverphone.webp);
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+    background-repeat: no-repeat;
+    margin-right: 150px;
+    margin-left: 130px
+}
+
+.mobile-image4 {
+    background-image: url(vivophone.png);
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+    background-repeat: no-repeat;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.mobile-item h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.price {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.mobile-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.mobile-button:hover {
+    background-color: #45a049;
+}
+
+.offer {
+    font-style: italic;
+    color: #ff5733;
+    font-weight: bold;
+    border: 2px solid #ff5733;
+    background-color: whitesmoke;
+    border-radius: 12px;
+    padding: 5px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.mobile-offers-title {
+    color: #ec351d;
+    text-shadow: 2px 2px 4px #1c0202;
+    background-color: #e48f84;
+    padding: 10px;
+}

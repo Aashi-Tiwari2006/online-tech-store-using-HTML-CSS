@@ -1,0 +1,78 @@
+    .logoimage {
+        background-image: url("cslogo.avif");
+        background-size: cover;
+        background-position: center;
+        height: 100px;
+        width: 100px
+    }
+    
+    .customercare-section {
+        padding: 20px;
+        border: 2px solid black;
+        border-radius: 10px;
+        background-color: aliceblue;
+    }
+    
+    .customercare-section h2 {
+        color: darkblue;
+        text-align: center;
+    }
+    
+    .customercare-section p {
+        font-size: 19px;
+        line-height: 1.5;
+        color: #0d0101;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    }
+    
+    .customercare-section h1 {
+        text-align: center;
+        color: darkblue;
+        font-size: 36px;
+    }
+    
+    .customercare-section li {
+        list-style-type: square;
+        padding-left: 20px;
+        font-size: 20px;
+        color: #041a57;
+    }
+    
+    .faq-section {
+        margin-top: 30px;
+        padding: 15px;
+        border: 2px solid #004080;
+        border-radius: 10px;
+        background-color: #e6f0ff;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .faq-section h3 {
+        color: #003366;
+    }
+    
+    .faq-section h3:hover {
+        color: #001a33;
+        cursor: pointer;
+    }
+    
+    .faq-section p {
+        font-size: 18px;
+        color: #0d0101;
+        line-height: 1.4;
+    }
+    
+    .faq-section p:hover {
+        background-color: #cce0ff;
+        cursor: pointer;
+    }
+    
+    .footer-section {
+        text-align: center;
+        padding: 10px;
+        background-color: #004080;
+        color: white;
+        font-size: 14px;
+        margin-top: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }

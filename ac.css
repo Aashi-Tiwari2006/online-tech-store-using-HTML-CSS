@@ -1,0 +1,83 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    background-color: #e8e6e6;
+}
+
+.heading {
+    text-align: center;
+    font-size: xx-large;
+    color: black;
+    background-color: #cac9c9;
+    padding: 10px;
+    border-bottom: 4px solid black;
+}
+
+.product-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+#product-image1 {
+    background-image: url(acreal.jpg);
+    width: 400px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-size: cover;
+    background-position: center;
+}
+
+#product-image2 {
+    background-image: url(acimage.avif);
+    width: 400px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-size: cover;
+    background-position: center;
+}
+
+#product-image3 {
+    background-image: url(ac.webp);
+    width: 400px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.product-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: 200px;
+    width: 450px;
+    margin: 0 10px;
+}
+
+.price {
+    text-align: center;
+    font-size: large;
+    color: #333;
+    margin-top: 10px;
+    border: 2px solid black;
+}
+
+.features {
+    text-align: center;
+    font-size: medium;
+    color: #555;
+    margin-top: 8px;
+    border: 1px solid black;
+    padding: 5px;
+}
